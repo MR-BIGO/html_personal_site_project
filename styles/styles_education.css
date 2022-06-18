@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(200deg, rgba(2,0,36,0.8155637254901961) 50%, rgba(53,152,181,1) 75%, rgba(0,212,255,1) 95%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.school_info{
+    align-items: center;
+}
+.img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid white;
+    overflow: hidden;
+    align-content: center;
+}
+.img img {
+    width: 100%;
+}
+.flex {
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.someText{
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: start;
+    align-items: center;
+}
+.school_text{
+    color: white;
+    margin-top: 100px;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+}

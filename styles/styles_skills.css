@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(200deg, rgba(2,0,36,1) 45%, rgba(152,53,181,1) 65%, rgba(0,212,255,1) 85%);;
+    animation: gradient 10s ease infinite alternate;
+    background-size: 400% 400%;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 50% 100%;
+    }
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+}
+.skills_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.list_item{
+    padding-top: 50px;
+}
+.list_item p{
+    color: white;
+}
+.list_item label{
+    color: white;
+}
+.decorations{
+    width: 350px;
+    height: 350px;
+    
+}
+.decorations img{
+    width: 100%;
+    padding-top: 350px;
+}
+.skill_level{
+    display: flex;
+    flex-direction: row;
+}
+.skill_level p{
+    margin-left: 6px;
+}
+.skill_level progress{
+    margin-left: 6px;
+}
